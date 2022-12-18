@@ -41,7 +41,7 @@ obj = {
       }
     },
     "entitlements" : {
-      "pro" : {
+        "Gear Pro subscription" : {
         "expires_date" : null,
         "purchase_date" : "2022-09-22T02:19:32Z",
         "product_identifier" : "com.gear.app.yearly",
