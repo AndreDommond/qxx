@@ -7,6 +7,8 @@
 
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/gearpro.js
 
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/gearpro.js
+
 [mitm] 
 
 hostname = api.revenuecat.com
