@@ -14,12 +14,12 @@ hostname = api.revenuecat.com
 
 *******************************/
 var objc = JSON.parse($response.body);
-objc.subscriber['entitlements'] = "premium": {
+objc.subscriber['entitlements'] = '{"premium": {
                     "expires_date": "2999-12-10T09:56:49Z",
                     "grace_period_expires_date": null,
                     "product_identifier": "premium_iap_id",
-                    "purchase_date": "2022-09-22T02:19:32Z"};
-objc.subscriber['subscriptions'] = "premium_iap_id": {
+                    "purchase_date": "2022-09-22T02:19:32Z"} }';
+objc.subscriber['subscriptions'] = '{"premium_iap_id": {
                     "auto_resume_date": null,
                     "billing_issues_detected_at": null,
                     "expires_date": "2999-12-10T09:56:49Z",
@@ -32,6 +32,6 @@ objc.subscriber['subscriptions'] = "premium_iap_id": {
                     "refunded_at": null,
                     "store": "app_store",
                     "unsubscribe_detected_at": null
-                };
+                }}';
 $done({ "body": JSON.stringify(objc) });
             
