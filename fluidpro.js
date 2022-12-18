@@ -51,6 +51,6 @@ objc = {
             }
   }
 };
-console("HHH");
+console.log("HHH");
 $done({ "body": JSON.stringify(objc) });
             
