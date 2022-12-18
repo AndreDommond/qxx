@@ -1,4 +1,4 @@
-oto[rewrite_local]
+[rewrite_local]
 
 ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/noto.js
 
@@ -7,7 +7,8 @@ oto[rewrite_local]
 hostname = api.revenuecat.com
 
 *******************************/
-_0x55b28d = {
+var objc = JSON.parse($response.body);
+objc = {
     "request_date": "2022-12-18T20:43:04Z",
     "request_date_ms": 1671396184695,
     "subscriber": {
@@ -59,4 +60,4 @@ _0x55b28d = {
       }
     }
   };
-$done({ "body": JSON.stringify(_0x55b28d) });
+$done({ "body": JSON.stringify(objc) });
