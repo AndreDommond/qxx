@@ -49,7 +49,7 @@ obj = {
       }
     },
     "original_purchase_date" : "2022-09-10T12:59:20Z",
-    "original_app_user_id" : "$RCAnonymousID:fe9dc27c6cd44b908576a7bd2eae8e24",
+    "original_app_user_id" : "$RCAnonymousID:AndreDommond",
     "non_subscriptions" : {
 
     }
