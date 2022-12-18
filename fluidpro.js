@@ -4,9 +4,9 @@
 
 [rewrite_local]
 
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(\$RCAnonymousID%)?(\w)*$) url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/fluidpro.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+)) url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/fluidpro.js
 
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+)) url script-response-header https://raw.githubusercontent.com/AndreDommond/qxx/master/fluidpro.js
+
 
 [mitm] 
 
@@ -14,9 +14,6 @@ hostname = api.revenuecat.com
 
 *******************************/
 var obj =JSON.parse($response.body);
-var modifiedHeaders = $request.headers;
-modifiedHeaders.X-RevenueCat-ETag = "";
-$done({ headers: modifiedHeaders });
 obj = {
         "request_date": "2022-12-07T09:56:55Z",
         "request_date_ms": 1670407015963,
