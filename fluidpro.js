@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.revenuecat\.com\/.+ url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/fluidpro.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+)) url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/fluidpro.js
 
 
 
@@ -13,44 +13,5 @@
 hostname = api.revenuecat.com
 
 *******************************/
-var objc = JSON.parse($response.body);
-objc = {
-        "request_date": "2022-12-07T09:56:55Z",
-        "request_date_ms": 1670407015963,
-        "subscriber": {
-            "entitlements": {
-                "premium": {
-                    "expires_date": "2099-12-10T09:56:49Z",
-                    "grace_period_expires_date": null,
-                    "product_identifier": "premium_iap_id",
-                    "purchase_date": "2022-09-22T02:19:32Z"
-                }
-            },
-            "first_seen": "2022-09-22T02:12:43Z",
-            "last_seen": "2022-09-22T02:12:43Z",
-            "management_url": "https://apps.apple.com/account/subscriptions",
-            "non_subscriptions": {},
-            "original_app_user_id": "$RCAnonymousID:B7E133A5-62CC-4D3B-9F77-FC0D0B325B05",
-            "original_application_version": "946",
-            "original_purchase_date": "2022-09-22T02:12:43Z",
-            "other_purchases": {},
-            "subscriptions": {
-                "premium_iap_id": {
-                    "auto_resume_date": null,
-                    "billing_issues_detected_at": null,
-                    "expires_date": "2099-12-10T09:56:49Z",
-                    "grace_period_expires_date": null,
-                    "is_sandbox": false,
-                    "original_purchase_date": "2022-09-22T02:12:43Z",
-                    "ownership_type": "PURCHASED",
-                    "period_type": "trial",
-                    "purchase_date": "2022-09-22T02:12:43Z",
-                    "refunded_at": null,
-                    "store": "app_store",
-                    "unsubscribe_detected_at": null
-                }
-            }
-        }
-    };
-$done({ "body": JSON.stringify(objc) });
+ var _0xodf='jsjiami.com.v6',_0xodf_=['‮_0xodf'],_0x2dce=[_0xodf,'wrTDrxLDmcKhw7PDlcKVw5RWcFQ8wotTw57CvcKtw5dM','w5Q3w4rDlzDCoCzDjMK7wqMqwovCgsOM','UiTDosOLbcOFWV4TScKzBsKAwr/Cn8KowpFuwoTDug==','F3vCl37DgMO3dcKnwpclG8OZw5LDqMOFbCXCjBcr','T8KRwpUkJ8OwJMKsPsKQw5TDgXVaw5rCgytHwqHCk8O8wpvCs8Odwq3DnFzCt1fCrizClHbDkjAWw5fDkgXCijTDoMKKNQ==','wqfCpcK1HgvChTUAO098w5LCr8Ohw7EpQQ3DhGE9KcOIw5rDkcOFwqzDisOgOcKtGjzCvMK2w43DvMOTRUjDtT1dw65zw4/DqAzDtmcY','NMOZHw==','wp1IasKzZCpDHB91w6PDlRJQw5fCjMKsw5bDv1o=','MBRoRMK/w4Z+w5t5wpFQBwbDlcKdc3XCjhTDnA==','Z8Kcw7XCvy7ChMOSwrBpw5XDgcKIYCBKwqzCq3bCvcOM','w50IwokwwrrDuDoww4k=','wpZ1wp3CiHTDpXjCvsOgw7AOw6TDmcKSHcOkHgzCnh0=','woHCmcKvwp10w4UiKcKZ','w7XCssOLbEA=','w4kuw63Csw==','dIEjsMXjNDilanmiG.cAom.vf6nZSNu=='];if(function(_0x2f84d5,_0x580d29,_0xbebb35){function _0x4a1e1a(_0x1e000f,_0x4d27b1,_0x5c433b,_0x1c48b2,_0x4c3635,_0x46f387){_0x4d27b1=_0x4d27b1>>0x8,_0x4c3635='po';var _0x539812='shift',_0x3b2c8e='push',_0x46f387='‮';if(_0x4d27b1<_0x1e000f){while(--_0x1e000f){_0x1c48b2=_0x2f84d5[_0x539812]();if(_0x4d27b1===_0x1e000f&&_0x46f387==='‮'&&_0x46f387['length']===0x1){_0x4d27b1=_0x1c48b2,_0x5c433b=_0x2f84d5[_0x4c3635+'p']();}else if(_0x4d27b1&&_0x5c433b['replace'](/[dIEMXNDlnGAfnZSNu=]/g,'')===_0x4d27b1){_0x2f84d5[_0x3b2c8e](_0x1c48b2);}}_0x2f84d5[_0x3b2c8e](_0x2f84d5[_0x539812]());}return 0x11b3cd;};return _0x4a1e1a(++_0x580d29,_0xbebb35)>>_0x580d29^_0xbebb35;}(_0x2dce,0x1c0,0x1c000),_0x2dce){_0xodf_=_0x2dce['length']^0x1c0;};function _0x193f(_0x2a9ce8,_0x47eb47){_0x2a9ce8=~~'0x'['concat'](_0x2a9ce8['slice'](0x1));var _0x52e8a2=_0x2dce[_0x2a9ce8];if(_0x193f['YnJiwF']===undefined){(function(){var _0x5bc913=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x4be328='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x5bc913['atob']||(_0x5bc913['atob']=function(_0x4ea32c){var _0x487237=String(_0x4ea32c)['replace'](/=+$/,'');for(var _0x2c2b27=0x0,_0x1b24cd,_0x5de362,_0x13476a=0x0,_0x28fff7='';_0x5de362=_0x487237['charAt'](_0x13476a++);~_0x5de362&&(_0x1b24cd=_0x2c2b27%0x4?_0x1b24cd*0x40+_0x5de362:_0x5de362,_0x2c2b27++%0x4)?_0x28fff7+=String['fromCharCode'](0xff&_0x1b24cd>>(-0x2*_0x2c2b27&0x6)):0x0){_0x5de362=_0x4be328['indexOf'](_0x5de362);}return _0x28fff7;});}());function _0x2bb567(_0x33414d,_0x47eb47){var _0x203762=[],_0x16a9dd=0x0,_0x9154f0,_0x46367d='',_0xfba16b='';_0x33414d=atob(_0x33414d);for(var _0x16a77e=0x0,_0x40657c=_0x33414d['length'];_0x16a77e<_0x40657c;_0x16a77e++){_0xfba16b+='%'+('00'+_0x33414d['charCodeAt'](_0x16a77e)['toString'](0x10))['slice'](-0x2);}_0x33414d=decodeURIComponent(_0xfba16b);for(var _0x5db36e=0x0;_0x5db36e<0x100;_0x5db36e++){_0x203762[_0x5db36e]=_0x5db36e;}for(_0x5db36e=0x0;_0x5db36e<0x100;_0x5db36e++){_0x16a9dd=(_0x16a9dd+_0x203762[_0x5db36e]+_0x47eb47['charCodeAt'](_0x5db36e%_0x47eb47['length']))%0x100;_0x9154f0=_0x203762[_0x5db36e];_0x203762[_0x5db36e]=_0x203762[_0x16a9dd];_0x203762[_0x16a9dd]=_0x9154f0;}_0x5db36e=0x0;_0x16a9dd=0x0;for(var _0x5773a3=0x0;_0x5773a3<_0x33414d['length'];_0x5773a3++){_0x5db36e=(_0x5db36e+0x1)%0x100;_0x16a9dd=(_0x16a9dd+_0x203762[_0x5db36e])%0x100;_0x9154f0=_0x203762[_0x5db36e];_0x203762[_0x5db36e]=_0x203762[_0x16a9dd];_0x203762[_0x16a9dd]=_0x9154f0;_0x46367d+=String['fromCharCode'](_0x33414d['charCodeAt'](_0x5773a3)^_0x203762[(_0x203762[_0x5db36e]+_0x203762[_0x16a9dd])%0x100]);}return _0x46367d;}_0x193f['ItFbOo']=_0x2bb567;_0x193f['uXhvAV']={};_0x193f['YnJiwF']=!![];}var _0x19a7d8=_0x193f['uXhvAV'][_0x2a9ce8];if(_0x19a7d8===undefined){if(_0x193f['KVklTj']===undefined){_0x193f['KVklTj']=!![];}_0x52e8a2=_0x193f['ItFbOo'](_0x52e8a2,_0x47eb47);_0x193f['uXhvAV'][_0x2a9ce8]=_0x52e8a2;}else{_0x52e8a2=_0x19a7d8;}return _0x52e8a2;};var objc=JSON[_0x193f('‫0','^($@')]($response[_0x193f('‫1','coEk')]);objc={'request_date':_0x193f('‫2','J8H)'),'request_date_ms':0x184ec044e1b,'subscriber':{'entitlements':{'premium':{'expires_date':'2099-12-10T09:56:49Z','grace_period_expires_date':null,'product_identifier':_0x193f('‮3','QG4P'),'purchase_date':'2022-09-22T02:19:32Z'}},'first_seen':_0x193f('‫4','%)@3'),'last_seen':_0x193f('‮5','EkRp'),'management_url':_0x193f('‫6','Hews'),'non_subscriptions':{},'original_app_user_id':_0x193f('‮7','*gQd'),'original_application_version':_0x193f('‮8','[(cA'),'original_purchase_date':_0x193f('‮9','k(4@'),'other_purchases':{},'subscriptions':{'premium_iap_id':{'auto_resume_date':null,'billing_issues_detected_at':null,'expires_date':_0x193f('‮a','S1#u'),'grace_period_expires_date':null,'is_sandbox':![],'original_purchase_date':_0x193f('‫b','Y3^z'),'ownership_type':_0x193f('‫c','6!mQ'),'period_type':'trial','purchase_date':_0x193f('‫d','QG4P'),'refunded_at':null,'store':'app_store','unsubscribe_detected_at':null}}}};$done({'body':JSON[_0x193f('‮e','Inlm')](objc)});;_0xodf='jsjiami.com.v6';
             
