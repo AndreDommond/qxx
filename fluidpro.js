@@ -52,7 +52,5 @@ objc = {
             }
         }
     };
-}
-;
 $done({ "body": JSON.stringify(objc) });
             
