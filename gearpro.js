@@ -33,7 +33,7 @@ obj = {
         "billing_issues_detected_at" : null,
         "period_type" : "trial",
         "expires_date" : "2099-12-12T09:03:34Z",
-        "grace_period_expires_date" : null,
+        "grace_period_expires_date" : "2099-12-12T09:03:34Z",
         "unsubscribe_detected_at" : "2022-09-22T02:21:43Z",
         "original_purchase_date" : "2022-09-22T02:19:33Z",
         "purchase_date" : "2022-09-22T02:19:32Z",
@@ -45,7 +45,7 @@ obj = {
         "expires_date" : "2099-12-12T09:03:34Z",
         "purchase_date" : "2022-09-22T02:19:32Z",
         "product_identifier" : "com.gear.app.yearly",
-        "grace_period_expires_date" : null
+        "grace_period_expires_date" : "2099-12-12T09:03:34Z"
       }
     },
     "original_purchase_date" : "2022-09-10T12:59:20Z",
