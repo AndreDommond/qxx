@@ -5,7 +5,7 @@
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\*. url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/gearpro.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\.+ url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/gearpro.js
 
 [mitm] 
 
