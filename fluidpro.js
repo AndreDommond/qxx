@@ -30,7 +30,7 @@ objc = {
             "last_seen": "2022-09-22T02:12:43Z",
             "management_url": "https://apps.apple.com/account/subscriptions",
             "non_subscriptions": {},
-            "original_app_user_id": "$RCAnonymousID:AndreDommond",
+            "original_app_user_id": "$RCAnonymousID:B7E133A5-62CC-4D3B-9F77-FC0D0B325B05",
             "original_application_version": "1",
             "original_purchase_date": "2022-09-22T02:12:43Z",
             "other_purchases": {},
