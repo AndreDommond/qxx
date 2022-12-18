@@ -5,7 +5,7 @@ TG频道群：https://t.me/gjwj6
 使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/888.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/999.js
 [mitm] 
 hostname = api.revenuecat.com
 *******************************/
