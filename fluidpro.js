@@ -13,7 +13,6 @@
 hostname = api.revenuecat.com
 
 *******************************/
-var obj =JSON.parse($response.body);
 obj = {
         "request_date": "2022-12-07T09:56:55Z",
         "request_date_ms": 1670407015963,
