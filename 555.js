@@ -1,17 +1,13 @@
 /******************************
-
-
-
+脚本功能：Noto 笔记+解锁订阅
+下载地址：https://is.gd/R4hqR6
+TG频道群：https://t.me/gjwj6
+使用声明：⚠️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+*******************************
 [rewrite_local]
-
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+)) url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/555.js
-
-
-
 [mitm] 
-
 hostname = api.revenuecat.com
-
 *******************************/
 var obj =JSON.parse($response.body);
 obj = {
