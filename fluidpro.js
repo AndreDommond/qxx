@@ -13,32 +13,31 @@
 hostname = api.revenuecat.com
 
 *******************************/
- var objc = JSON.parse($response.body);
+var objc = JSON.parse($response.body);
 objc = {
-        "request_date": "2022-12-07T09:56:55Z",
-        "request_date_ms": 1670407015963,
-        "subscriber": {
-            "entitlements": {
-                "premium": {
-                    "expires_date": "2099-12-10T09:56:49Z",
+  "request_date": "2022-12-18T19:38:02Z",
+  "request_date_ms": 1671392282633,
+  "subscriber": {
+    "entitlements": {
+     "premium": {
+                    "expires_date": "2999-12-10T09:56:49Z",
                     "grace_period_expires_date": null,
                     "product_identifier": "premium_iap_id",
-                    "purchase_date": "2022-09-22T02:19:32Z"
-                }
-            },
-            "first_seen": "2022-09-22T02:12:43Z",
-            "last_seen": "2022-09-22T02:12:43Z",
-            "management_url": "https://apps.apple.com/account/subscriptions",
-            "non_subscriptions": {},
-            "original_app_user_id": "$RCAnonymousID:B7E133A5-62CC-4D3B-9F77-FC0D0B325B05",
-            "original_application_version": "946",
-            "original_purchase_date": "2022-09-22T02:12:43Z",
-            "other_purchases": {},
-            "subscriptions": {
+                    "purchase_date": "2022-09-22T02:19:32Z"}
+                    },
+    "first_seen": "2022-12-18T19:31:37Z",
+    "last_seen": "2022-12-18T19:31:37Z",
+    "management_url": null,
+    "non_subscriptions": {},
+    "original_app_user_id": "$RCAnonymousID:2a1dc2162d994c7a8321962de36be41b",
+    "original_application_version": "4000",
+    "original_purchase_date": "2022-12-10T13:59:27Z",
+    "other_purchases": {},
+    "subscriptions": {
                 "premium_iap_id": {
                     "auto_resume_date": null,
                     "billing_issues_detected_at": null,
-                    "expires_date": "2099-12-10T09:56:49Z",
+                    "expires_date": "2999-12-10T09:56:49Z",
                     "grace_period_expires_date": null,
                     "is_sandbox": false,
                     "original_purchase_date": "2022-09-22T02:12:43Z",
@@ -50,8 +49,8 @@ objc = {
                     "unsubscribe_detected_at": null
                 }
             }
-        }
-    };
-console('body');
+  }
+};
+console("HHH");
 $done({ "body": JSON.stringify(objc) });
             
