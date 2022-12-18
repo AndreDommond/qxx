@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers\/(\$RCAnonymousID%)?([\u4E00-\u9FA5A-Za-z0-9-_]+)) url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/fluidpro.js
+^https:\/\/api\.revenuecat\.com\/.+ url script-response-body https://raw.githubusercontent.com/AndreDommond/qxx/master/fluidpro.js
 
 
 
