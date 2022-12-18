@@ -21,7 +21,7 @@ obj = {
   "subscriber" : {
     "last_seen" : "2022-09-22T02:12:43Z",
     "first_seen" : "2022-09-22T02:12:43Z",
-    "original_application_version" : "322",
+    "original_application_version" : "1",
     "other_purchases" : {
 
     },
@@ -32,7 +32,7 @@ obj = {
         "ownership_type" : "PURCHASED",
         "billing_issues_detected_at" : null,
         "period_type" : "trial",
-        "expires_date" : null,
+        "expires_date" : "2099-12-12T09:03:34Z",
         "grace_period_expires_date" : null,
         "unsubscribe_detected_at" : "2022-09-22T02:21:43Z",
         "original_purchase_date" : "2022-09-22T02:19:33Z",
@@ -41,8 +41,8 @@ obj = {
       }
     },
     "entitlements" : {
-        "Gear Pro subscription" : {
-        "expires_date" : null,
+        "pro" : {
+        "expires_date" : "2099-12-12T09:03:34Z",
         "purchase_date" : "2022-09-22T02:19:32Z",
         "product_identifier" : "com.gear.app.yearly",
         "grace_period_expires_date" : null
