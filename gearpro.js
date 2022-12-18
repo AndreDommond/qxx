@@ -27,7 +27,7 @@ obj = {
     },
     "management_url" : "https://apps.apple.com/account/subscriptions",
     "subscriptions" : {
-      "com.olegst.usage.pro" : {
+      "com.gear.app.yearly" : {
         "is_sandbox" : false,
         "ownership_type" : "PURCHASED",
         "billing_issues_detected_at" : null,
@@ -44,7 +44,7 @@ obj = {
       "pro" : {
         "expires_date" : null,
         "purchase_date" : "2022-09-22T02:19:32Z",
-        "product_identifier" : "com.olegst.usage.pro",
+        "product_identifier" : "com.gear.app.yearly",
         "grace_period_expires_date" : null
       }
     },
