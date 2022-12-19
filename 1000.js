@@ -1,7 +1,6 @@
 /***************************************
-**************************************
 [rewrite_local]
-^https?:\/\/(app|api|data|cm|manga)\.(bilibili|biliapi)\.(com|cn)\/.+ url script-request-header https://raw.githubusercontent.com/AndreDommond/qxx/master/1000.js
+^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/AndreDommond/qxx/master/1000.js
 [mitm]
 hostname= api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, *.bili*.*, app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net
 ***************************************/
