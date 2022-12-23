@@ -12,11 +12,11 @@
 var obj =JSON.parse($response.body);
 obj = {
    "msg" : {
-     "user_not_login" : "用户未登录"
+     "user_login" : "用户已登录"
    },
    "data" : {
      "account_type" : "1"
    },
-   "code" : 1000
+   "code" : 20000
  };
 $done({ "body": JSON.stringify(obj) });
